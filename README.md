@@ -64,3 +64,13 @@ export default class Foo extends Component {
 }
 ```
 
+
+
+### Authors
+- ALireza Kavian - phase 1 - [BRILAC ASCK](https://www.github.com/BRILACASCK)
+
+### License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/alirezakay/RegexToDFA/blob/master/LICENSE) file for details
+
+### Acknowledgments
+- With a special thanks to a member in stackoverflow for his good answer: [here](https://stackoverflow.com/a/47578899/7076130)
