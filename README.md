@@ -56,8 +56,8 @@ export default class Foo extends Component {
   }
   render() {
       return (
-          <div className={this.props.className}>
-              {this.props.numberProp}
+          <div style={{color: this.props.color}}>
+              {this.props.name}
           </div>
       );
   }
