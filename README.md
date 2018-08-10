@@ -18,7 +18,7 @@ npm install --save @types/react
 ### SECOND
 Use these jsdoc notations for documenting, for example
 
-***Consider That:***
+***Assume That:***
  
  - We have a react component **class** named **Foo**
  - Foo has some **props** for example named **color** and **name**
