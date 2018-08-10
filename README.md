@@ -11,7 +11,7 @@ Here is a way for **react types** suggestion, in jsdoc annotation.
 ### FIRST
 Install @types/react module with this command:
 
-```
+```cmd
 npm install --save @types/react
 ```
 
@@ -27,7 +27,7 @@ Use these jsdoc notations for documenting, for example
  
 So, the jsdoc would be something like this:
  
-```
+```js
 import React, {Component} from 'react'; // needs to be installed by 'npm i --save react'
 import propTypes from 'prop-types'; // needs to be installed by 'npm i --save prop-types'
 
@@ -46,15 +46,15 @@ import propTypes from 'prop-types'; // needs to be installed by 'npm i --save pr
  * @extends {Component<props>}
  */
 export default class Foo extends Component {
+  static propTypes = {
+      color: propTypes.number,
+      name: propTypes.string,
+  };
   constructor (props) {
     super (props);
     this.state = {};
   }
   render() {
-      static propTypes = {
-          className: propTypes.string,
-          btn_list: propTypes.arrayOf(propTypes.object),
-      };
       return (
           <div className={this.props.className}>
               {this.props.numberProp}
